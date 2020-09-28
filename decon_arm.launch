@@ -1,0 +1,5 @@
+<launch>  
+	<node pkg="interbotix_moveit" type="ddarm" name="decon_arm" output="screen">
+    		<remap from="joint_states" to="wx200/joint_states"/>
+  	</node>
+</launch>
